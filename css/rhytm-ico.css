@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'rhytm-ico';
+  src:  url('fonts/rhytm-ico.eot?6gqovq');
+  src:  url('fonts/rhytm-ico.eot?6gqovq#iefix') format('embedded-opentype'),
+    url('fonts/rhytm-ico.ttf?6gqovq') format('truetype'),
+    url('fonts/rhytm-ico.woff?6gqovq') format('woff'),
+    url('fonts/rhytm-ico.svg?6gqovq#rhytm-ico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'rhytm-ico' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rhytm-apple:before {
+  content: "\e900";
+  color: #b2b2b2;
+}
+.rhytm-car:before {
+  content: "\e901";
+  color: #a4a4a4;
+}
+.rhytm-category:before {
+  content: "\e902";
+  color: #a4a4a4;
+}
+.rhytm-facebook:before {
+  content: "\e903";
+}
+.rhytm-instagram:before {
+  content: "\e904";
+}
+.rhytm-location:before {
+  content: "\e905";
+}
+.rhytm-play:before {
+  content: "\e906";
+  color: #b2b2b2;
+}
+.rhytm-sms:before {
+  content: "\e907";
+}
+.rhytm-twitter:before {
+  content: "\e908";
+}
+.rhytm-wallet:before {
+  content: "\e909";
+  color: #a4a4a4;
+}
